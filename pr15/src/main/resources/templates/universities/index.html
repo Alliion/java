@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Университеты</title>
+</head>
+<body>
+    <a href="/home">Домой</a>
+    <h1>Университеты</h1>
+    <h2>Список</h2>
+    <div th:each="u: ${universities}">
+        <span th:text="${u.getName()}"></span>
+        <span th:text="${u.getCreationDate()}"></span>
+        <form th:method="delete" th:action="@{/universities/{id} (id = ${u.getId()})}" style="display: inline" >
+            <button type="submit">Удалить</button>
+        </form>
+    </div>
+
+    <h2>Форма создания</h2>
+    <form th:method="POST" th:action="@{/universities}" th:object="${newUniversity}">
+        <label>
+            Название:
+            <input type="text" th:field="*{name}">
+        </label>
+
+        <br/>
+
+        <label>
+            Дата основания:
+            <input type="text" th:field="*{creationDate}">
+        </label>
+
+        <br/>
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

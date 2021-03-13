@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Студенты</title>
+</head>
+<body>
+    <a href="/home">Домой</a>
+    <h1>Студенты</h1>
+    <h2>Список</h2>
+    <div th:each="s: ${students}">
+        <span th:text="${s.getLastName()}"></span>
+        <span th:text="${s.getFirstName()}"></span>
+        <span th:text="${s.getMiddleName()}"></span>
+        <form th:method="delete" th:action="@{/students/{id} (id = ${s.getId()})}" style="display: inline" >
+            <button type="submit">Удалить</button>
+        </form>
+    </div>
+
+    <h2>Форма создания</h2>
+    <form th:method="POST" th:action="@{/students}" th:object="${newStudent}">
+        <label>
+            Фамилия:
+            <input type="text" th:field="*{lastName}">
+        </label>
+
+        <br/>
+
+        <label>
+            Имя:
+            <input type="text" th:field="*{firstName}">
+        </label>
+
+        <br/>
+
+        <label>
+            Отчество:
+            <input type="text" th:field="*{middleName}">
+        </label>
+
+        <br/>
+
+        <label>
+            Название университета:
+            <input type="text" th:field="*{nameUniversity}">
+        </label>
+
+        <br/>
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

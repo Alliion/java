@@ -1,0 +1,4 @@
+Student{id=9, firstName='Евгений', lastName='Субботин', middleName='Валерьевич', university=МИРЭА}
+Student{id=14, firstName='Андрей ', lastName='Устинов ', middleName='Даниэльевич', university=МГУ}
+Student{id=21, firstName='Герман', lastName='Фролов', middleName='Романович', university=МИРЭА}
+Student{id=22, firstName='Валерия', lastName='Пономарева', middleName='Кирилловна', university=МГУ}

@@ -1,0 +1,5 @@
+University{id=11, name='МИРЭА', creationDate='1231'}
+University{id=15, name='МГУ', creationDate='1'}
+University{id=18, name='МГТУ', creationDate='13333'}
+University{id=23, name='НИУ ВШЭ', creationDate='999'}
+University{id=24, name='МГИМО', creationDate='222'}

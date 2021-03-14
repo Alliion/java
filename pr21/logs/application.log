@@ -1,0 +1,1625 @@
+901  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Starting Pr21Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 18788 (C:\Zhenya\github\java-3-semester\pr21\target\classes started by user in C:\Zhenya\github\java-3-semester\pr21)
+903  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – No active profile set, falling back to default profiles: default
+953  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+954  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1432 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1488 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+1964 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1973 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1974 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1974 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+2037 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2037 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1081 ms
+2169 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2213 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+2326 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2403 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2561 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2576 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3100 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3107 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3510 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+3566 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+3701 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+3713 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+3745 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+3757 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Started Pr21Application in 3.243 seconds (JVM running for 4.325)
+12461 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+12462 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+12464 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+19786 [http-nio-8080-exec-2] INFO  c.e.pr21.services.UniversityService
+                – Find all universities
+19913 [http-nio-8080-exec-2] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.UniversityService.getAll() worked for 133ms
+713  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Starting Pr21Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 388 (C:\Zhenya\github\java-3-semester\pr21\target\classes started by user in C:\Zhenya\github\java-3-semester\pr21)
+716  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – No active profile set, falling back to default profiles: default
+760  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+760  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1280 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1343 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+1884 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1884 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1884 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1884 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+1960 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1960 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1200 ms
+2101 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2148 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+2257 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2335 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2488 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2511 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3021 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3021 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3447 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+3502 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+3643 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+3643 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+3683 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+3683 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Started Pr21Application in 3.354 seconds (JVM running for 4.146)
+8682 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+8683 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+8683 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 0 ms
+8721 [http-nio-8080-exec-1] INFO  c.e.pr21.services.UniversityService
+                – Find all universities
+8839 [http-nio-8080-exec-1] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.UniversityService.getAll() worked for 122ms
+11627 [http-nio-8080-exec-4] INFO  c.e.pr21.services.UniversityService
+                – Find all universities
+11631 [http-nio-8080-exec-4] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.UniversityService.getAll() worked for 4ms
+12587 [http-nio-8080-exec-10] INFO  c.e.pr21.services.UniversityService
+                – Find all universities
+12592 [http-nio-8080-exec-10] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.UniversityService.getAll() worked for 5ms
+15866 [http-nio-8080-exec-9] INFO  c.e.pr21.services.StudentService
+                – Find all srudents
+15881 [http-nio-8080-exec-9] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.StudentService.getAll() worked for 18ms
+45626 [http-nio-8080-exec-2] INFO  c.e.pr21.services.StudentService
+                – Save student with id: 0
+45643 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+                – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.StackOverflowError] with root cause
+java.lang.StackOverflowError: null
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.Student.toString(Student.java:67)
+	at java.base/java.lang.String.valueOf(String.java:3388)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at org.hibernate.collection.internal.PersistentSet.toString(PersistentSet.java:328)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+	at com.example.pr21.models.University.toString(University.java:57)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:439)
+589  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Starting Pr21Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 9644 (C:\Zhenya\github\java-3-semester\pr21\target\classes started by user in C:\Zhenya\github\java-3-semester\pr21)
+592  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – No active profile set, falling back to default profiles: default
+630  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+630  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1112 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1166 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+1612 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1618 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1618 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1619 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+1680 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1680 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1049 ms
+1805 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+1836 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+1917 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1981 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2100 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2117 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2540 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2548 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2948 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+2997 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+3132 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+3145 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+3162 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+3171 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Started Pr21Application in 2.885 seconds (JVM running for 3.54)
+11660 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+11661 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+11663 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+11809 [http-nio-8080-exec-1] INFO  c.e.pr21.services.StudentService
+                – Save student with id: 0
+13634 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+                – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f10sm2308521lfm.194 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f10sm2308521lfm.194 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.pr21.services.EmailService.sendInfoAboutSaveObject(EmailService.java:29)
+	at com.example.pr21.services.StudentService.save(StudentService.java:54)
+	at com.example.pr21.services.StudentService$$FastClassBySpringCGLIB$$fdcd4ece.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.pr21.aspects.TimeAspect.logTime(TimeAspect.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.example.pr21.services.StudentService$$EnhancerBySpringCGLIB$$714574ea.save(<generated>)
+	at com.example.pr21.controllers.StudentController.create(StudentController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+541  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Starting Pr21Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 9388 (C:\Zhenya\github\java-3-semester\pr21\target\classes started by user in C:\Zhenya\github\java-3-semester\pr21)
+544  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – No active profile set, falling back to default profiles: default
+581  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+582  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1133 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1187 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+1625 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1630 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1631 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1631 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+1696 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1696 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1114 ms
+1826 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+1859 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+1944 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2011 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2128 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2145 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2541 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2548 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2976 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+3025 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+3182 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+3196 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+3212 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+3221 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Started Pr21Application in 2.946 seconds (JVM running for 3.566)
+9913 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+9914 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+9914 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 0 ms
+10056 [http-nio-8080-exec-1] INFO  c.e.pr21.services.StudentService
+                – Save student with id: 0
+20209 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+                – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailSendException: Mail server connection failed; nested exception is javax.mail.MessagingException: Got bad greeting from SMTP host: imap.gmail.com, port: 993, response: [EOF]. Failed messages: javax.mail.MessagingException: Got bad greeting from SMTP host: imap.gmail.com, port: 993, response: [EOF]; message exceptions (1) are:
+Failed message 1: javax.mail.MessagingException: Got bad greeting from SMTP host: imap.gmail.com, port: 993, response: [EOF]] with root cause
+javax.mail.MessagingException: Got bad greeting from SMTP host: imap.gmail.com, port: 993, response: [EOF]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2198)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.pr21.services.EmailService.sendInfoAboutSaveObject(EmailService.java:29)
+	at com.example.pr21.services.StudentService.save(StudentService.java:54)
+	at com.example.pr21.services.StudentService$$FastClassBySpringCGLIB$$fdcd4ece.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.pr21.aspects.TimeAspect.logTime(TimeAspect.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.example.pr21.services.StudentService$$EnhancerBySpringCGLIB$$3ff55ae3.save(<generated>)
+	at com.example.pr21.controllers.StudentController.create(StudentController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+540  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Starting Pr21Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 5992 (C:\Zhenya\github\java-3-semester\pr21\target\classes started by user in C:\Zhenya\github\java-3-semester\pr21)
+542  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – No active profile set, falling back to default profiles: default
+580  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+580  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1253 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1310 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+1743 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1749 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1749 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1749 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+1811 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1811 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1230 ms
+1941 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2013 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+2150 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2238 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2401 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2422 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2935 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2942 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3365 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+3417 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+3558 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+3572 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+3588 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+3598 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Started Pr21Application in 3.322 seconds (JVM running for 4.004)
+655676 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+655677 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+655678 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+655730 [http-nio-8080-exec-1] INFO  c.e.pr21.services.StudentService
+                – Find all srudents
+655865 [http-nio-8080-exec-1] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.StudentService.getAll() worked for 144ms
+708838 [http-nio-8080-exec-4] INFO  c.e.pr21.services.StudentService
+                – Save student with id: 0
+711507 [http-nio-8080-exec-4] INFO  com.example.pr21.aspects.TimeAspect
+                – void com.example.pr21.services.StudentService.save(StudentDTO) worked for 2694ms
+711539 [http-nio-8080-exec-5] INFO  c.e.pr21.services.StudentService
+                – Find all srudents
+711542 [http-nio-8080-exec-5] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.StudentService.getAll() worked for 3ms
+746783 [http-nio-8080-exec-2] INFO  c.e.pr21.services.UniversityService
+                – Find all universities
+746788 [http-nio-8080-exec-2] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.UniversityService.getAll() worked for 13ms
+792970 [http-nio-8080-exec-1] INFO  c.e.pr21.services.UniversityService
+                – Save user with id: 0
+795224 [http-nio-8080-exec-1] INFO  com.example.pr21.aspects.TimeAspect
+                – void com.example.pr21.services.UniversityService.save(University) worked for 2254ms
+795234 [http-nio-8080-exec-3] INFO  c.e.pr21.services.UniversityService
+                – Find all universities
+795238 [http-nio-8080-exec-3] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.UniversityService.getAll() worked for 4ms
+626  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Starting Pr21Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 7492 (C:\Zhenya\github\java-3-semester\pr21\target\classes started by user in C:\Zhenya\github\java-3-semester\pr21)
+628  [restartedMain] INFO  com.example.pr21.Pr21Application
+                – No active profile set, falling back to default profiles: default
+669  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+669  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1196 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1251 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+1733 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1739 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1740 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1740 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+1811 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1811 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1141 ms
+1954 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2017 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+2148 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2244 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2383 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2400 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2888 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2895 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3316 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+3370 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+3524 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+3536 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+3553 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+3562 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Started Pr21Application in 3.246 seconds (JVM running for 4.016)
+44792 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+44793 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+44795 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+44843 [http-nio-8080-exec-1] INFO  c.e.pr21.services.UniversityService
+                – Save user with id: 0
+44892 [http-nio-8080-exec-1] INFO  com.example.pr21.aspects.TimeAspect
+                – void com.example.pr21.services.UniversityService.save(University) worked for 56ms
+44934 [http-nio-8080-exec-3] INFO  c.e.pr21.services.UniversityService
+                – Find all universities
+45043 [http-nio-8080-exec-3] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.UniversityService.getAll() worked for 108ms

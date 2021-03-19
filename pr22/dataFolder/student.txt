@@ -1,4 +1,5 @@
-Student{id=9, firstName='Евгений', lastName='Субботин', middleName='Валерьевич', university=МИРЭА}
-Student{id=14, firstName='Андрей ', lastName='Устинов ', middleName='Даниэльевич', university=МГУ}
-Student{id=21, firstName='Герман', lastName='Фролов', middleName='Романович', university=МИРЭА}
-Student{id=22, firstName='Валерия', lastName='Пономарева', middleName='Кирилловна', university=МГУ}
+Student{id=4, firstName='Вячеслав', lastName='Баранов', middleName='Дмитриевич', university=МИРЭА}
+Student{id=5, firstName='Мелания', lastName='Кузнецова', middleName='Владимировна', university=МИРЭА}
+Student{id=8, firstName='Андрей', lastName='Федоров', middleName='Николаевич', university=МГУ}
+Student{id=9, firstName='2', lastName='1', middleName='3', university=МГУ}
+Student{id=10, firstName='Евгений', lastName='Субботин', middleName='Валерьевич', university=МИРЭА}

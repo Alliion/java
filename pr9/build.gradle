@@ -16,9 +16,6 @@ jar {
     from {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
-    finalizedBy {
-        copyJar
-    }
 }
 
 task copyJar(type: Copy) {

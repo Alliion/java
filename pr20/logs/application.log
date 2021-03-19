@@ -1,424 +1,62 @@
-1213 [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 1328 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
-1216 [restartedMain] INFO  com.example.pr20.Pr20Application
+1121 [restartedMain] INFO  com.example.pr20.Pr20Application
+                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 19256 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
+1131 [restartedMain] INFO  com.example.pr20.Pr20Application
                 – No active profile set, falling back to default profiles: default
-1270 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+1212 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
                 – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-1271 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+1212 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
                 – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1869 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+2312 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
                 – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1932 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2334 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+2462 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
+3554 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat initialized with port(s): 8080 (http)
-2341 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+3571 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Initializing ProtocolHandler ["http-nio-8080"]
-2341 [restartedMain] INFO  o.a.catalina.core.StandardService
+3572 [restartedMain] INFO  o.a.catalina.core.StandardService
                 – Starting service [Tomcat]
-2342 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+3572 [restartedMain] INFO  o.a.catalina.core.StandardEngine
                 – Starting Servlet engine: [Apache Tomcat/9.0.43]
-2406 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+3768 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
                 – Initializing Spring embedded WebApplicationContext
-2407 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 1135 ms
-2530 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+3770 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2556 ms
+4182 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
                 – HHH000204: Processing PersistenceUnitInfo [name: default]
-2581 [restartedMain] INFO  org.hibernate.Version
+4290 [restartedMain] INFO  org.hibernate.Version
                 – HHH000412: Hibernate ORM core version 5.4.28.Final
-2703 [restartedMain] INFO  o.h.annotations.common.Version
+4623 [restartedMain] INFO  o.h.annotations.common.Version
                 – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2785 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+4882 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Starting...
-3047 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+5345 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Start completed.
-3062 [restartedMain] INFO  org.hibernate.dialect.Dialect
+5413 [restartedMain] INFO  org.hibernate.dialect.Dialect
                 – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-3552 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+6865 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
                 – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-3559 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+6884 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
                 – Initialized JPA EntityManagerFactory for persistence unit 'default'
-3905 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+8066 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
                 – Initializing ExecutorService 'applicationTaskExecutor'
-3955 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+8231 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
                 – Adding welcome page template: index
-4068 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+8670 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
                 – LiveReload server is running on port 35729
-4081 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+8712 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Starting ProtocolHandler ["http-nio-8080"]
-4097 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+8769 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat started on port(s): 8080 (http) with context path ''
-4106 [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Started Pr20Application in 3.404 seconds (JVM running for 4.686)
-671  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 3988 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
-677  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – No active profile set, falling back to default profiles: default
-726  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-726  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1209 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1277 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
-1689 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat initialized with port(s): 8080 (http)
-1695 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Initializing ProtocolHandler ["http-nio-8080"]
-1695 [restartedMain] INFO  o.a.catalina.core.StandardService
-                – Starting service [Tomcat]
-1695 [restartedMain] INFO  o.a.catalina.core.StandardEngine
-                – Starting Servlet engine: [Apache Tomcat/9.0.43]
-1762 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
-                – Initializing Spring embedded WebApplicationContext
-1762 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 1036 ms
-1889 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
-                – HHH000204: Processing PersistenceUnitInfo [name: default]
-1939 [restartedMain] INFO  org.hibernate.Version
-                – HHH000412: Hibernate ORM core version 5.4.28.Final
-2056 [restartedMain] INFO  o.h.annotations.common.Version
-                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2133 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Starting...
-2306 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Start completed.
-2312 [restartedMain] INFO  org.hibernate.dialect.Dialect
-                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2888 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
-                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2888 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
-                – Initialized JPA EntityManagerFactory for persistence unit 'default'
-3229 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
-                – Initializing ExecutorService 'applicationTaskExecutor'
-3292 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
-                – Adding welcome page template: index
-3422 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
-                – LiveReload server is running on port 35729
-3435 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Starting ProtocolHandler ["http-nio-8080"]
-3453 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat started on port(s): 8080 (http) with context path ''
-3462 [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Started Pr20Application in 3.131 seconds (JVM running for 3.875)
-580  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 16320 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
-596  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – No active profile set, falling back to default profiles: default
-666  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-667  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1147 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1194 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
-1428 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
-                – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-1428 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener
-                – 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-1444 [restartedMain] ERROR o.s.boot.SpringApplication
-                – Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:519)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:566)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
-	at com.example.pr20.Pr20Application.main(Pr20Application.java:12)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
-	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1142)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1117)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:513)
-	... 20 common frames omitted
-Caused by: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
-	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:337)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:289)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	... 42 common frames omitted
-534  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 4848 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
-534  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – No active profile set, falling back to default profiles: default
-575  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-575  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1021 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1083 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
-1288 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
-                – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-1288 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener
-                – 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-1314 [restartedMain] ERROR o.s.boot.SpringApplication
-                – Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:519)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:566)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
-	at com.example.pr20.Pr20Application.main(Pr20Application.java:11)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
-	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1142)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1117)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:513)
-	... 20 common frames omitted
-Caused by: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: LogTime
-	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
-	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:337)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:289)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	... 42 common frames omitted
-549  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 7020 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
-549  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – No active profile set, falling back to default profiles: default
-585  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-585  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1069 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1116 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
-1621 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat initialized with port(s): 8080 (http)
-1629 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Initializing ProtocolHandler ["http-nio-8080"]
-1629 [restartedMain] INFO  o.a.catalina.core.StandardService
-                – Starting service [Tomcat]
-1630 [restartedMain] INFO  o.a.catalina.core.StandardEngine
-                – Starting Servlet engine: [Apache Tomcat/9.0.43]
-1698 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
-                – Initializing Spring embedded WebApplicationContext
-1698 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 1113 ms
-1820 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
-                – HHH000204: Processing PersistenceUnitInfo [name: default]
-1867 [restartedMain] INFO  org.hibernate.Version
-                – HHH000412: Hibernate ORM core version 5.4.28.Final
-1974 [restartedMain] INFO  o.h.annotations.common.Version
-                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2052 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Starting...
-2177 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Start completed.
-2193 [restartedMain] INFO  org.hibernate.dialect.Dialect
-                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2644 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
-                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2659 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
-                – Initialized JPA EntityManagerFactory for persistence unit 'default'
-3063 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
-                – Initializing ExecutorService 'applicationTaskExecutor'
-3110 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
-                – Adding welcome page template: index
-3251 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
-                – LiveReload server is running on port 35729
-3266 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Starting ProtocolHandler ["http-nio-8080"]
-3282 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat started on port(s): 8080 (http) with context path ''
-3282 [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Started Pr20Application in 3.008 seconds (JVM running for 3.691)
-13937 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+8799 [restartedMain] INFO  com.example.pr20.Pr20Application
+                – Started Pr20Application in 8.191 seconds (JVM running for 9.574)
+15621 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
                 – Initializing Spring DispatcherServlet 'dispatcherServlet'
-13937 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+15623 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
                 – Initializing Servlet 'dispatcherServlet'
-13937 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
-                – Completed initialization in 0 ms
-16516 [http-nio-8080-exec-5] INFO  c.e.pr20.services.StudentService
+15627 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+18082 [http-nio-8080-exec-4] INFO  c.e.pr20.services.StudentService
                 – Find all srudents
-16640 [http-nio-8080-exec-5] INFO  com.example.pr20.aspects.TimeAspect
-                – List com.example.pr20.services.StudentService.getAll() worked for 129ms
-550  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 15484 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
-550  [restartedMain] INFO  com.example.pr20.Pr20Application
-                – No active profile set, falling back to default profiles: default
-591  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-591  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
-                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1067 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1114 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
-1572 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat initialized with port(s): 8080 (http)
-1572 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Initializing ProtocolHandler ["http-nio-8080"]
-1572 [restartedMain] INFO  o.a.catalina.core.StandardService
-                – Starting service [Tomcat]
-1572 [restartedMain] INFO  o.a.catalina.core.StandardEngine
-                – Starting Servlet engine: [Apache Tomcat/9.0.43]
-1650 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
-                – Initializing Spring embedded WebApplicationContext
-1650 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 1059 ms
-1779 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
-                – HHH000204: Processing PersistenceUnitInfo [name: default]
-1813 [restartedMain] INFO  org.hibernate.Version
-                – HHH000412: Hibernate ORM core version 5.4.28.Final
-1904 [restartedMain] INFO  o.h.annotations.common.Version
-                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-1967 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Starting...
-2092 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Start completed.
-2107 [restartedMain] INFO  org.hibernate.dialect.Dialect
-                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2512 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
-                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2528 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
-                – Initialized JPA EntityManagerFactory for persistence unit 'default'
-2917 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
-                – Initializing ExecutorService 'applicationTaskExecutor'
-2968 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
-                – Adding welcome page template: index
-3088 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
-                – LiveReload server is running on port 35729
-3104 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Starting ProtocolHandler ["http-nio-8080"]
-3119 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat started on port(s): 8080 (http) with context path ''
-3135 [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Started Pr20Application in 2.857 seconds (JVM running for 3.512)
-7561 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
-                – Initializing Spring DispatcherServlet 'dispatcherServlet'
-7562 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
-                – Initializing Servlet 'dispatcherServlet'
-7562 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
-                – Completed initialization in 0 ms
-7596 [http-nio-8080-exec-1] INFO  c.e.pr20.services.StudentService
-                – Find all srudents
-7687 [http-nio-8080-exec-1] INFO  com.example.pr20.aspects.TimeAspect
-                – List com.example.pr20.services.StudentService.getAll() worked for 104ms
-12634 [http-nio-8080-exec-2] INFO  c.e.pr20.services.StudentService
-                – Filter students by universityName=МГУ, firstName=, middleName=, lastName=
-12679 [http-nio-8080-exec-2] INFO  com.example.pr20.aspects.TimeAspect
-                – List com.example.pr20.services.StudentService.filterStudents(String,String,String,String) worked for 45ms
-74014 [http-nio-8080-exec-5] INFO  c.e.pr20.services.StudentService
-                – Filter students by universityName=, firstName=, middleName=, lastName=
-74019 [http-nio-8080-exec-5] INFO  com.example.pr20.aspects.TimeAspect
-                – List com.example.pr20.services.StudentService.filterStudents(String,String,String,String) worked for 5ms
-81189 [http-nio-8080-exec-3] INFO  c.e.pr20.services.StudentService
-                – Delete student by id: 8
-81224 [http-nio-8080-exec-3] INFO  com.example.pr20.aspects.TimeAspect
-                – void com.example.pr20.services.StudentService.delete(int) worked for 35ms
-81235 [http-nio-8080-exec-9] INFO  c.e.pr20.services.StudentService
-                – Find all srudents
-81238 [http-nio-8080-exec-9] INFO  com.example.pr20.aspects.TimeAspect
-                – List com.example.pr20.services.StudentService.getAll() worked for 3ms
-134207 [http-nio-8080-exec-2] INFO  c.e.pr20.services.StudentService
-                – Save student with id: 0
-134226 [http-nio-8080-exec-2] INFO  com.example.pr20.aspects.TimeAspect
-                – void com.example.pr20.services.StudentService.save(StudentDTO) worked for 35ms
-134233 [http-nio-8080-exec-4] INFO  c.e.pr20.services.StudentService
-                – Find all srudents
-134236 [http-nio-8080-exec-4] INFO  com.example.pr20.aspects.TimeAspect
-                – List com.example.pr20.services.StudentService.getAll() worked for 3ms
-138118 [http-nio-8080-exec-8] INFO  c.e.pr20.services.UniversityService
-                – Find all universities
-138123 [http-nio-8080-exec-8] INFO  com.example.pr20.aspects.TimeAspect
-                – List com.example.pr20.services.UniversityService.getAll() worked for 8ms
+18750 [http-nio-8080-exec-4] INFO  com.example.pr20.aspects.TimeAspect
+                – List com.example.pr20.services.StudentService.getAll() worked for 706ms

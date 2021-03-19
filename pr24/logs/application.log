@@ -1,0 +1,258 @@
+1750 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Starting Pr24Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 12860 (C:\Zhenya\github\java-3-semester\pr24\target\classes started by user in C:\Zhenya\github\java-3-semester\pr24)
+1753 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – No active profile set, falling back to default profiles: default
+1816 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1817 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2904 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2980 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+3671 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3679 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3680 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3680 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+3767 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3767 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1949 ms
+4061 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4114 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+4250 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4366 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+4523 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4541 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+5226 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5236 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5350 [restartedMain] INFO  o.s.b.a.e.w.ServletEndpointRegistrar
+                – Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+6020 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6745c02b, org.springframework.security.web.context.SecurityContextPersistenceFilter@337575ca, org.springframework.security.web.header.HeaderWriterFilter@5c56c029, org.springframework.security.web.csrf.CsrfFilter@25e4477c, org.springframework.security.web.authentication.logout.LogoutFilter@159ef43a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f7a49ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d3240ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a0c4d69, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@64e7eba5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4359434f, org.springframework.security.web.session.SessionManagementFilter@18f69335, org.springframework.security.web.access.ExceptionTranslationFilter@3997760a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c90ac7f]
+6152 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+6218 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6629 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+6637 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 15 endpoint(s) beneath base path '/actuator'
+6698 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6718 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6738 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+6748 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Started Pr24Application in 5.509 seconds (JVM running for 7.825)
+7050 [RMI TCP Connection(2)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7051 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7058 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+960242 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Shutting down ExecutorService 'applicationTaskExecutor'
+960248 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+960256 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+960285 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+960434 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Starting Pr24Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 12860 (C:\Zhenya\github\java-3-semester\pr24\target\classes started by user in C:\Zhenya\github\java-3-semester\pr24)
+960435 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – No active profile set, falling back to default profiles: default
+961155 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+961178 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+961370 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+961371 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+961371 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+961371 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+961414 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+961415 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 975 ms
+961535 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+961544 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-2 - Starting...
+961632 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-2 - Start completed.
+961633 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+961741 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+961742 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+961827 [restartedMain] INFO  o.s.b.a.e.w.ServletEndpointRegistrar
+                – Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+962310 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b77caef, org.springframework.security.web.context.SecurityContextPersistenceFilter@79658ae3, org.springframework.security.web.header.HeaderWriterFilter@206b3974, org.springframework.security.web.csrf.CsrfFilter@749f0888, org.springframework.security.web.authentication.logout.LogoutFilter@2a4c0cf2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6da05397, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6319241a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ac00194, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@5e365e69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@573f4da0, org.springframework.security.web.session.SessionManagementFilter@75321785, org.springframework.security.web.access.ExceptionTranslationFilter@6c5ec702, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54410ab3]
+962503 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+962582 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+963079 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+963088 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 15 endpoint(s) beneath base path '/actuator'
+963141 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+963149 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+963167 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+963168 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Started Pr24Application in 2.796 seconds (JVM running for 964.245)
+963172 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener
+                – Condition evaluation unchanged
+470  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.pr24.Pr24ApplicationTests], using SpringBootContextLoader
+490  [main] INFO  o.s.t.c.s.AbstractContextLoader
+                – Could not detect default resource locations for test class [com.example.pr24.Pr24ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+492  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                – Could not detect default configuration classes for test class [com.example.pr24.Pr24ApplicationTests]: Pr24ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+693  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Found @SpringBootConfiguration com.example.pr24.Pr24Application for test class com.example.pr24.Pr24ApplicationTests
+892  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+917  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@31000e60, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d470d0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@24d09c1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@54c62d71, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@65045a87, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47f4e407, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2d1dee39, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48d5f34e, org.springframework.test.context.event.EventPublishingTestExecutionListener@fc258b1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ff65192, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2dd80673, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4af0df05, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@57ea113a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@acdb094, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@674bd420]
+1376 [main] INFO  c.example.pr24.Pr24ApplicationTests
+                – Starting Pr24ApplicationTests using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 14160 (started by user in C:\Zhenya\github\java-3-semester\pr24)
+1380 [main] INFO  c.example.pr24.Pr24ApplicationTests
+                – No active profile set, falling back to default profiles: default
+3115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 99 ms. Found 3 JPA repository interfaces.
+4564 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4692 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+4925 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5162 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+5442 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+5486 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+6430 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6439 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+8533 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f1db390, org.springframework.security.web.context.SecurityContextPersistenceFilter@240f712e, org.springframework.security.web.header.HeaderWriterFilter@1784a296, org.springframework.security.web.csrf.CsrfFilter@1f251bf1, org.springframework.security.web.authentication.logout.LogoutFilter@3df681cc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72998021, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@641ab175, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c6fe482, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@5b8b9b2d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78c5ef58, org.springframework.security.web.session.SessionManagementFilter@4f3e65f4, org.springframework.security.web.access.ExceptionTranslationFilter@65b69ccb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4daead88]
+9287 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+9481 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+10750 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 15 endpoint(s) beneath base path '/actuator'
+10869 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+10887 [main] INFO  c.example.pr24.Pr24ApplicationTests
+                – Started Pr24ApplicationTests in 9.902 seconds (JVM running for 11.914)
+11324 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Shutting down ExecutorService 'applicationTaskExecutor'
+11333 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+11337 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+11344 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+283  [main] INFO  c.e.pr24.services.UniversityService
+                – Find all universities
+294  [main] INFO  c.e.pr24.services.UniversityService
+                – Find all universities
+230  [main] INFO  c.e.pr24.services.UniversityService
+                – Save user with id: 0
+202  [main] INFO  c.e.pr24.services.UniversityService
+                – Delete user by id: 1
+250  [main] INFO  c.e.pr24.services.UniversityService
+                – Delete user by id: 1
+3273493 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+3273496 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+3273531 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 34 ms
+249  [main] INFO  c.e.pr24.services.StudentService
+                – Find all srudents
+257  [main] INFO  c.e.pr24.services.StudentService
+                – Find all srudents
+227  [main] INFO  c.e.pr24.services.StudentService
+                – Save student with id: 0
+217  [main] INFO  c.e.pr24.services.StudentService
+                – Save student with id: 0
+250  [main] INFO  c.e.pr24.services.StudentService
+                – Save student with id: 0
+377  [main] INFO  c.e.pr24.services.UniversityService
+                – Find all universities
+388  [main] INFO  c.e.pr24.services.UniversityService
+                – Find all universities
+414  [main] INFO  c.e.pr24.services.UniversityService
+                – Save user with id: 0
+310  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=1, middleName=, lastName=
+313  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=2, middleName=, lastName=
+209  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=1, middleName=, lastName=
+213  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=2, middleName=, lastName=
+234  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=1, middleName=, lastName=
+238  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=2, middleName=, lastName=
+302  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=1, middleName=, lastName=
+308  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=2, middleName=, lastName=
+260  [main] INFO  c.e.pr24.services.StudentService
+                – Find all srudents
+267  [main] INFO  c.e.pr24.services.StudentService
+                – Find all srudents
+292  [main] INFO  c.e.pr24.services.StudentService
+                – Save student with id: 0
+329  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=1, middleName=, lastName=
+330  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=2, middleName=, lastName=
+190  [main] INFO  c.e.pr24.services.StudentService
+                – Find all srudents
+205  [main] INFO  c.e.pr24.services.StudentService
+                – Find all srudents
+227  [main] INFO  c.e.pr24.services.StudentService
+                – Save student with id: 0
+255  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=1, middleName=, lastName=
+256  [main] INFO  c.e.pr24.services.StudentService
+                – Filter students by universityName=, firstName=2, middleName=, lastName=
+379  [main] INFO  c.e.pr24.services.UniversityService
+                – Find all universities
+387  [main] INFO  c.e.pr24.services.UniversityService
+                – Find all universities
+412  [main] INFO  c.e.pr24.services.UniversityService
+                – Save user with id: 0

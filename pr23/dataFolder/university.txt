@@ -1,0 +1,2 @@
+University{id=3, name='МИРЭА', creationDate='01.01.01'}
+University{id=7, name='МГУ', creationDate='02.02.02'}

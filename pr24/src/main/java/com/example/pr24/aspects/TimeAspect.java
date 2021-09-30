@@ -10,6 +10,12 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class TimeAspect {
+    /**
+     * Логирует время выполнеяния метода
+     * @param joinPoint
+     * @return результат метода на которого повесели анотацию
+     * @throws Throwable
+     */
     @Around(value = "@annotation(com.example.pr24.annotations.LogTime)")
     public Object logTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long timeStart = System.currentTimeMillis();

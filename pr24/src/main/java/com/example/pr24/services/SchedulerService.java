@@ -30,6 +30,11 @@ public class SchedulerService {
         this.studentDAO = studentDAO;
     }
 
+    /**
+     * Сохраняет все данные из таблиц student и university
+     * в одноимённые файлы с расширением txt,
+     * распологающиеся в директории folder.data.path
+     */
     @Scheduled(fixedRate = 1800000)
     @ManagedOperation
     public void saveDataFromDBToFolder() {

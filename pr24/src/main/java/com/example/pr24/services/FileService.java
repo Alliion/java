@@ -9,6 +9,10 @@ import java.io.UnsupportedEncodingException;
 
 @Service
 public class FileService {
+    /**
+     * Удаляет все файлы в указанной директории
+     * @param path путь до директории
+     */
     public void deleteAllFilesFolder(String path) {
         File folder = new File(path);
         File[] fileList = folder.listFiles();
@@ -21,6 +25,11 @@ public class FileService {
             if (myFile.isFile()) myFile.delete();
     }
 
+    /**
+     * Записывает data в файл, распологающийся по пути fileName, если файла нет, то создаст
+     * @param fileName путь до файла
+     * @param data текстовые данные которые будут записаны в файл
+     */
     public void writeToFile(String fileName, String data) {
         PrintWriter writer = null;
         try {

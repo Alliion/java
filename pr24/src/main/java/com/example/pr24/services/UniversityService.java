@@ -27,6 +27,10 @@ public class UniversityService {
         this.emailService = emailService;
     }
 
+    /**
+     * Выводит все университеты из бд
+     * @return
+     */
     @LogTime
     @Transactional
     public List<University> getAll() {
@@ -34,6 +38,10 @@ public class UniversityService {
         return universityDAO.findAll();
     }
 
+    /**
+     * Удаляет университет по id
+     * @param id id студента
+     */
     @LogTime
     @Transactional
     public void delete(int id) {
@@ -48,6 +56,11 @@ public class UniversityService {
         universityDAO.deleteById(id);
     }
 
+    /**
+     * Создаёт новые или обновляет старые данные университета
+     * у которого id равен с university.id
+     * @param university данные нового
+     */
     @LogTime
     @Transactional
     public void save(University university) {

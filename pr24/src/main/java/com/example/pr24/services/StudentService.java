@@ -27,6 +27,10 @@ public class StudentService {
         this.emailService = emailService;
     }
 
+    /**
+     * Выводит всех студентов из бд
+     * @return
+     */
     @LogTime
     @Transactional
     public List<Student> getAll() {
@@ -34,6 +38,10 @@ public class StudentService {
         return studentDAO.findAll();
     }
 
+    /**
+     * Удаляет студента по id
+     * @param id id студента
+     */
     @LogTime
     @Transactional
     public void delete(int id) {
@@ -41,6 +49,11 @@ public class StudentService {
         studentDAO.deleteById(id);
     }
 
+    /**
+     * Создаёт нового или обновляет старого студента
+     * у которого id равен с studentDTO.id
+     * @param studentDTO данные нового
+     */
     @LogTime
     @Transactional
     public void save(StudentDTO studentDTO) {
@@ -56,6 +69,14 @@ public class StudentService {
         studentDAO.save(student);
     }
 
+    /**
+     * Фильтрует студентов по параметрам, указанные в методе
+     * @param universityName название университета
+     * @param firstName имя студента
+     * @param middleName отчество студента
+     * @param lastName фамилия студента
+     * @return отфильтрованный список студентов
+     */
     @LogTime
     @Transactional
     public List<Student> filterStudents(

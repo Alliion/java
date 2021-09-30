@@ -19,6 +19,10 @@ public class EmailService {
         this.javaMailSender = javaMailSender;
     }
 
+    /**
+     * Отправляет текстовое сообщение на почту, которая указана в spring.mail.username
+     * @param text - текст сообщения
+     */
     @Async
     public void sendInfoAboutSaveObject(String text) {
         SimpleMailMessage message = new SimpleMailMessage();

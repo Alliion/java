@@ -45,6 +45,7 @@
         <span th:text="${s.getLastName()}"></span>
         <span th:text="${s.getFirstName()}"></span>
         <span th:text="${s.getMiddleName()}"></span>
+        <span th:text="${s.getUniversity().getName()}"></span>
         <form th:method="delete" th:action="@{/students/{id} (id = ${s.getId()})}" style="display: inline" >
             <button type="submit">Удалить</button>
         </form>

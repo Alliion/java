@@ -8,3 +8,5 @@ pr21/src/main/resources/application.properties
 pr22/src/main/resources/application.properties
 pr23/src/main/resources/application.properties
 pr24/src/main/resources/application.properties
+
+!pr24/target/site/**

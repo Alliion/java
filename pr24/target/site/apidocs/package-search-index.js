@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.pr24"},{"l":"com.example.pr24.annotations"},{"l":"com.example.pr24.aspects"},{"l":"com.example.pr24.controllers"},{"l":"com.example.pr24.dao"},{"l":"com.example.pr24.dto"},{"l":"com.example.pr24.models"},{"l":"com.example.pr24.services"}];updateSearchResults();
